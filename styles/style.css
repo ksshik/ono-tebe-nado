@@ -347,13 +347,9 @@
   line-height: 1.6;
   color: #000;
   margin-bottom: 24px;
-  height: 120px;
-  weight: 688px;
 }
 
 .about__text p:last-child {
-  height: 168px;
-  weight: 693px;
   margin-bottom: 0;
 }
 
@@ -370,6 +366,7 @@
 .footer__address {
   justify-self: start;
   color: #000;
+  margin-bottom: 82px;
 }
 
 .footer__contact {
