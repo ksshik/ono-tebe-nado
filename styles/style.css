@@ -71,6 +71,8 @@
   font-size: 18px;
   line-height: 1.5;
   color: #000;
+  weight: 240px;
+  height: 98px;
 }
 
 .header__contact {
@@ -137,11 +139,15 @@
 .aligned-text_center {
   text-align: center;
   padding-right: 0;
+  margin-top: 20px;
+  padding-left: 44.5px;
 }
 
 .aligned-text_right {
   text-align: right;
   padding-right: 0;
+  margin-top: 20px;
+  padding-left: 44.5px;
 }
 
 .cover__description {
@@ -155,7 +161,7 @@
 }
 
 .cover__description-text {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   word-spacing: 10px;
   letter-spacing: 2px;
@@ -170,7 +176,7 @@
 .bet-button {
   width: 256px;
   height: 51px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -214,7 +220,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #000;
-  margin-bottom: 30px;
+  margin-bottom: 27px;
   line-height: 47px;
   padding: 169px 40px 0px;
 }
@@ -298,8 +304,8 @@
 
 .about {
   display: grid;
-  grid-template-columns: 359px 1fr;
-  /* gap: 72px; */
+  grid-template-columns: 334px 1fr;
+  gap: 25px; 
   padding: 131px 24px; 
   background-color: #fff;
   align-items: start;
@@ -344,13 +350,13 @@
 
 .about__text p {
   font-size: 20px;
-  line-height: 1.6;
+  line-height: 20px;
   color: #000;
   margin-bottom: 24px;
 }
 
 .about__text p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 0;    
 }
 
 .footer {
