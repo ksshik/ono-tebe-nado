@@ -64,8 +64,8 @@
 }
 
 .header__address {
-  justify-self: end; 
-  text-align: left; 
+  justify-self: end;
+  text-align: left;
   font-size: 18px;
   line-height: 1.5;
   color: #000;
@@ -80,8 +80,8 @@
 .cover {
   position: relative;
   background: url('../images/cover.jpg') center / cover no-repeat;
-  min-height: 600px;
-  padding: 100px 0;
+  min-height: 400px;
+  padding: 50px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -204,6 +204,7 @@
   letter-spacing: 1px;
   color: #000;
   margin-bottom: 30px;
+  padding: 0 40px;
 }
 
 .lots__card-list {
@@ -227,7 +228,7 @@
 
 .card {
   position: relative;
-  height: 600px;
+  height: 520px;
   background-size: cover;
   background-position: center;
   display: flex;
