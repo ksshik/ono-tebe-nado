@@ -305,8 +305,8 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  gap: 25px; 
-  padding: 131px 24px; 
+  gap: 25px;
+  padding: 131px 24px;
   background-color: #fff;
   align-items: start;
   height: 595px;
@@ -350,7 +350,6 @@
 
 .about__text p {
   font-size: 20px;
-  line-height: 20px;
   color: #000;
   margin-bottom: 24px;
   line-height: 1.2;
