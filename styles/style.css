@@ -71,7 +71,7 @@
   font-size: 18px;
   line-height: 1.5;
   color: #000;
-  weight: 240px;
+  width: 240px;
   height: 98px;
 }
 
@@ -310,7 +310,7 @@
   background-color: #fff;
   align-items: start;
   height: 595px;
-  weight: 1052px;
+  width: 1052px;
 }
 
 .about__column {
@@ -353,20 +353,22 @@
   line-height: 20px;
   color: #000;
   margin-bottom: 24px;
+  line-height: 1.2;
 }
 
 .about__text p:last-child {
-  margin-bottom: 0;    
+  margin-bottom: 0;
+  line-height: 1.2;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
-  padding: 372px 50px 0px;
+  padding: 311px 50px 0px;
   background-color: #fff;
   font-size: 18px;
-  height: 180px;
+  /* height: 180px; */
 }
 
 .footer__address {
