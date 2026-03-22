@@ -216,13 +216,13 @@
   color: #000;
   margin-bottom: 30px;
   line-height: 47px;
-  padding: 169px 64px 27px;
+  padding: 169px 64px 0px;
 }
 
 .lots__card-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
+  gap: 25px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -292,7 +292,7 @@
   font-size: 20px;
   color: #000;
   text-decoration: underline;
-  padding: 30px 64px 0px;
+  padding: 0px 64px;
   text-underline-offset: 4px;
 }
 
@@ -348,9 +348,13 @@
   line-height: 1.6;
   color: #000;
   margin-bottom: 24px;
+  height: 120px;
+  weight: 688px;
 }
 
 .about__text p:last-child {
+  height: 168px;
+  weight: 693px;
   margin-bottom: 0;
 }
 
@@ -358,7 +362,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
-  padding: 200px 50px 150px;
+  padding: 364px 50px 200px;
   background-color: #fff;
   font-size: 18px;
   height: 180px;
