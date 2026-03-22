@@ -203,7 +203,7 @@
 
 .lots {
   background-color: #fff;
-  padding: 169px 30px;
+  padding: 0px 30px;
 }
 
 .lots__heading {
@@ -213,7 +213,8 @@
   letter-spacing: 1px;
   color: #000;
   margin-bottom: 30px;
-  padding: 0 40px;
+  line-height: 47px;
+  padding: 169px 64px 27px;
 }
 
 .lots__card-list {
@@ -246,7 +247,6 @@
   justify-content: space-between;
   padding: 24px 0px;
   overflow: hidden;
-
 }
 
 .card_type_film {
@@ -291,7 +291,7 @@
   font-size: 20px;
   color: #000;
   text-decoration: underline;
-  padding: 0 40px;
+  padding: 30px 64px 0px;
   text-underline-offset: 4px;
 }
 
@@ -299,7 +299,7 @@
   display: grid;
   grid-template-columns: 340px 1fr;
   gap: 60px;
-  padding: 100px 30px 100px;
+  padding: 219px 30px;
   background-color: #fff;
   align-items: start;
   height: 595px;
@@ -356,7 +356,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
-  padding: 200px 50px;
+  padding: 200px 50px 150px;
   background-color: #fff;
   font-size: 18px;
   height: 180px;
