@@ -2,9 +2,10 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 90px 50px;
   height: 293px;
+  padding: 0 50px;
 }
+
 
 .header__menu {
   justify-self: start;
@@ -115,9 +116,9 @@
 .cover__title {
   font-size: 100px;
   font-weight: 800;
-  line-height: 1.3;
+  line-height: 115px;
   margin: 0;
-  letter-spacing: 40px;
+  letter-spacing: 30px;
   text-transform: uppercase;
   color: #fff;
   padding: 165px 50px 0;
@@ -156,7 +157,7 @@
 .cover__description-text {
   font-size: 18px;
   line-height: 1.5;
-  word-spacing: 15px;
+  word-spacing: 10px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #fff;
@@ -182,6 +183,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: -10px;
 }
 
 .bet-button:hover {
@@ -245,7 +247,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 24px 0px;
   overflow: hidden;
 }
 
@@ -298,11 +299,12 @@
 .about {
   display: grid;
   grid-template-columns: 340px 1fr;
-  gap: 60px;
-  padding: 219px 30px;
+  gap: 72px;
+  padding: 184px 24px;
   background-color: #fff;
   align-items: start;
   height: 595px;
+  weight: 1052px;
 }
 
 .about__column {
@@ -322,7 +324,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+  padding: 35px 47px;
   margin-top: -90px;
 }
 
